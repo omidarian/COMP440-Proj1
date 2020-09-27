@@ -1,1 +1,1 @@
-# Comp440Proj1
+# COMP440Proj1
