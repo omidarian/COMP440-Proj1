@@ -21,7 +21,7 @@
             <label> Confirm Password:</label>
             <input name="conPassword" type="password" class="inputvalues" placeholder="Confirm password"size="22" required><br><br>
             <input name="subButton" type="submit" id="signUpButton" value="Sign Up"/>
-            <input type="button" id="backButton" value="Back to Login"/>
+            <a href="index.php"><input type="button" id="backButton" value="Back to Login"/></a>
         </form>
         
     </div>

@@ -1,5 +1,5 @@
 <?php
-
+    require 'config.php';
 ?>
 
 <!DOCTYPE html>
@@ -19,7 +19,7 @@
             <label> Password:</label>
             <input type="password" class="inputvalues" placeholder="Type your password" size="30"><br><br>
             <input type="submit" id="logButton" value="Login"/>
-            <input type="button" id="regButton" value="Register"/>
+            <a href="register.php"><input type="button" id="regButton" value="Register"/></a>
         </form>
         
     </div>
