@@ -13,11 +13,11 @@
     <div id="main-wrapper" align="center">
         <p>Welcome to Registration Form</p>
         <!-- Form of input data-->
-        <form action="register.php" method="post">
+        <form action="create.php" method="post">
             <label>Username:</label>
-            <input name="username" type="text" class="inputvalues" placeholder="Type your username" size="30" required> <br><br>
+            <input name="user" type="text" class="inputvalues" placeholder="Type your username" size="30" required> <br><br>
             <label> Password:</label>
-            <input name="password" type="password" class="inputvalues" placeholder="Type your password" size="30" required><br><br>
+            <input name="pass" type="password" class="inputvalues" placeholder="Type your password" size="30" required><br><br>
             <label> Confirm Password:</label>
             <input name="conPassword" type="password" class="inputvalues" placeholder="Confirm password"size="22" required><br><br>
             <input name="subButton" type="submit" id="signUpButton" value="Sign Up"/>
