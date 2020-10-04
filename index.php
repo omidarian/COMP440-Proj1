@@ -1,6 +1,6 @@
 <?php
+    session_start();
     require 'config.php';
-	session_start();
 ?>
 
 <!DOCTYPE html>
@@ -33,7 +33,7 @@ if($_SERVER['REQUEST_METHOD'] == 'post'){
 			require 'welcome.php';
         }  
         else{  
-            echo "<h1> Login failed. Invalid username or password.</h1>";  
+            echo "<h1> Login failed. Invalid username or password.</h1>";
         }
 	}
 	elseif (isset($_POST['register'])){
