@@ -1,17 +1,10 @@
 <?php
 
-    //$con = mysqli_connect("localhost","root","root") or die("unable to connet");
     //mysqli_select_db($con,"user");
 	$host = 'localhost';
-	$user = 'root';
-	$pass = '';
+	$user = 'root1';
+	$pass = '1234';
 	$db = 'login';
-	
-	/* $conn = mysqli_connect($host,$user,$pass);
-	
-	$sql = 'CREATE Database login1';
-	mysqli_close($conn);
-	$db = 'login1'; */
 	
 	/* $connn = mysqli_connect($host, $user, $pass, $db);  
 	

@@ -1,4 +1,5 @@
 <?php
+    session_start();
     require 'config.php';
 ?>
 
@@ -11,8 +12,9 @@
 </head>
 <body style="background-color:#95a5a6">
     <div id="main-wrapper" align="center">
+        <p>Login successful</p>
         <p>Welcome Page</p>
-        <h2>Welcome 
+        <h2>Welcome: 
             <?php echo $_SESSION['username']?>
         </h2>
         <!-- Form of input data-->

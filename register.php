@@ -30,7 +30,7 @@
     <?php
         if(isset($_POST['subButton']))
         {
-            //echo '<script type="text/javascript"> alert("Sign Up button clicked") </script>';
+        //echo '<script type="text/javascript"> alert("Sign Up button clicked") </script>';
 		$username = $_POST['user'];  
         $password = $_POST['pass'];  
         $conPassword = $_POST['conPass']; 
@@ -66,7 +66,7 @@
         
         }
         else{
-            echo 'Password and confirm password does not match!';
+            echo '<center>Password and confirm password does not match!</center>';
 			die;
         }
         
